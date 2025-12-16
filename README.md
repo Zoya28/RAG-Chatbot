@@ -5,7 +5,7 @@ This project demonstrates an end-to-end RAG pipeline using **LangChain**, **FAIS
 
 ---
 
-## 📌 Problem Statement
+## Problem Statement
 
 Traditional chatbots and LLM-based assistants often:
 - Hallucinate answers
@@ -16,7 +16,7 @@ This makes them unsuitable for answering questions about a company’s services,
 
 ---
 
-## 💡 Solution Overview
+## Solution Overview
 
 This project implements a **Retrieval-Augmented Generation (RAG)** system that:
 
@@ -31,7 +31,7 @@ To improve relevance, the chatbot routes queries to **different knowledge bases*
 
 ---
 
-## 🧠 Key Features
+## Key Features
 
 -  **Document ingestion from JSON**
 -  **Recursive text chunking** with overlap
@@ -47,7 +47,7 @@ To improve relevance, the chatbot routes queries to **different knowledge bases*
 ---
 
 
-## 🔧 Tech Stack
+## Tech Stack
 
 - **Language**: Python
 - **LLM**: LLaMA 3.1 (Groq API)
@@ -58,7 +58,7 @@ To improve relevance, the chatbot routes queries to **different knowledge bases*
 
 ---
 
-## ⚙️ How It Processes Real Data
+## How It Processes Real Data
 
 1. **Data Loading**
    - Company and general data are loaded from JSON files.
@@ -103,7 +103,7 @@ python chatbot.py
 ```
 Type exit to quit.
 
-## 🧪 Example Queries
+## Example Queries
 “What services does THIS COMPANY offer?”
 
 “Tell me about COMPANY'S projects”
@@ -116,14 +116,14 @@ Type exit to quit.
 
 I don't know.
 
-**⚠️ Known Limitations**
+**Known Limitations**
 
 - This project is not production-optimized
 - LLM-based intent classification introduces latency
 - Designed for learning and demonstration purposes
 - Single-user, command-line interface
 
-**📈 Future Improvements**
+**Future Improvements**
 
 - Replace LLM-based intent classification with embedding-based routing
 - Add relevance score thresholding
@@ -131,7 +131,7 @@ I don't know.
 - Add async support and caching
 - Improve source citation in responses
 
-**🎯 Learning Outcomes**
+**Learning Outcomes**
 
 Through this project, I gained hands-on experience with:
 - Retrieval-Augmented Generation (RAG)
