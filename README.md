@@ -1,4 +1,4 @@
-# RAG-Based Company Knowledge Chatbot
+# Enterprise Knowledge Assistant 
 
 A Retrieval-Augmented Generation (RAG) chatbot that answers **company-specific** and **general** questions by grounding responses strictly in retrieved data from vector databases.  
 This project demonstrates an end-to-end RAG pipeline using **LangChain**, **FAISS**, **HuggingFace embeddings**, and a **Groq-hosted LLaMA model**.
